@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://https://wisecraftmedia.github.io/light_hive/",
+  "homepage": "https://wisecraftmedia.github.io/light_hive/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
