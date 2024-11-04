@@ -1,0 +1,16 @@
+footer svg {
+  fill: red;
+}
+
+.test {
+  transform: scale(1.7);
+}
+
+.bi {
+  fill: black;
+}
+
+footer {
+  margin-right: auto;
+  margin-left: auto;
+}
