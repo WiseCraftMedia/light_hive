@@ -1,13 +1,9 @@
 footer svg {
-  fill: red;
+  fill: gray;
 }
 
 .test {
   transform: scale(1.7);
-}
-
-.bi {
-  fill: black;
 }
 
 footer {
