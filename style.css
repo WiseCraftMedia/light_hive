@@ -1,9 +1,14 @@
-footer svg {
-  fill: gray;
+* {
+  box-sizing: border-box;
 }
 
-.test {
-  transform: scale(1.7);
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+footer svg {
+  fill: gray;
 }
 
 footer {
@@ -11,27 +16,91 @@ footer {
   margin-left: auto;
 }
 
-/* Carousel sizing  */
-.carousel-item img {
-  max-width: 100%;
-  max-height: 500px;
-  object-fit: contain;
-  display: block;
-  margin: auto;
-}
-
 .extra {
   box-shadow: 4px 4px 4px 4px rgb(122, 122, 122);
 }
 
-body {
-  background-color: rgb(216, 216, 216);
-}
-
 html {
-  font-family: cursive;
+  background: url(/WiseCraft/public/images/AdobeStock_832778076_20opacity.png) no-repeat center
+      fixed,
+    rgb(11, 96, 176);
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: #f0edcf;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.nav-link {
-  font-size: 2vh;
+nav li {
+  list-style: none;
+  padding: 1vw 2vw;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f0edcf;
+}
+
+/* .navbar-left {
+  background-color: #40a2d8;
+  border-radius: 0 50% 50% 0;
+  border-top-right-radius: 7% 50%;
+  border-bottom-right-radius: 7% 50%;
+  font-size: xx-large;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: right;
+  width: 40%;
+  position: relative;
+  top: 5vh;
+  right: 5vw;
+}
+
+.navbar-right {
+  background-color: #40a2d8;
+  border-top-left-radius: 4% 50% !important;
+  border-bottom-left-radius: 4% 50% !important;
+  border-radius: 50% 0 0 50%;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 1.2vw;
+  display: flex;
+  width: 60%;
+  position: relative;
+  top: 5vh;
+  left: 50vw;
+} */
+
+nav {
+  font-family: Serif;
+  color: #f0edcf;
+}
+
+.content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 5vw;
+  font-size: larger;
+  /* background-color: rgba(11, 96, 176, 0.2); */
+}
+
+.services {
+  text-decoration: none;
+}
+
+.services ul {
+  padding-left: 0;
+}
+
+.services li {
+  list-style: none;
+}
+
+.none {
+  display: none;
+}
+
+.active {
+  display: block;
 }
